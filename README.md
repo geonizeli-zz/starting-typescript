@@ -6,3 +6,6 @@
 
 # tuple.ts
 - Tuple example
+
+# enum.ts*
+- Enum examples
