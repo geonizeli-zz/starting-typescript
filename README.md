@@ -9,3 +9,6 @@
 
 # enum.ts*
 - Enum examples
+
+# any.ts
+- Dinamic variable
