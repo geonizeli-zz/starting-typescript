@@ -1,17 +1,24 @@
-# helloWorld.ts
+# Starting Typescript
+
+## Exploration considerations
+- Typed JS still untyped
+- Sometimes it may not be practical
+
+## Files
+### helloWorld.ts
 - Basic variable typed example
 
-# fibonacci.ts
+### fibonacci.ts
 - Array declaration
 
-# tuple.ts
+### tuple.ts
 - Tuple example
 
-# enum.ts*
+### enum.ts*
 - Enum examples
 
-# any.ts
+### any.ts
 - Dinamic variable
 
-# assertions.ts
+### assertions.ts
 - Type assertions use
