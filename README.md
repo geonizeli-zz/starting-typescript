@@ -12,3 +12,6 @@
 
 # any.ts
 - Dinamic variable
+
+# assertions.ts
+- Type assertions use
