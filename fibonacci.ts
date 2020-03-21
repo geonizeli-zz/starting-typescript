@@ -17,8 +17,16 @@ list.forEach(element => {
   console.log(fibonacci(element))
 });
 
+/* OUTPUT
+  1
+  1
+  3
+  21
+  987
+  2178309
+*/
 
-/*
+/* TRANSPILATION
 ```
   function fibonacci(n) {
     if (n <= 1) {

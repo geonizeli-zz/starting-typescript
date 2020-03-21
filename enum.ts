@@ -23,6 +23,14 @@ let colorName: string = Color[2];
 console.log("Enum value name:", colorName);
 
 /* OUTPUT
+  Enum input: 'null', 'null', 'null'
+  Enum output: 0 1 2
+  Enum input: '50', '150', 'null'
+  Enum output: 50 150 151
+  Enum value name: Blue
+*/
+
+/* TRANSPILATION
   var Color;
   (function (Color) {
       Color[Color["Red"] = 0] = "Red";

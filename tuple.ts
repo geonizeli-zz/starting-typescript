@@ -5,6 +5,11 @@ x.forEach(element => {
 });
 
 /* OUTPUT
+  String
+  19
+*/
+
+/* TRANSPILATION
 ```
   var x = ["String", 19];
   x.forEach(function (element) {

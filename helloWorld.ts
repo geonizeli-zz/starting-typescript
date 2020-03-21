@@ -6,8 +6,11 @@ let user = "João Victor";
 
 console.log(greeter(user));
 
-
 /* OUTPUT
+  Hello, João Victor
+*/
+
+/* TRANSPILATION
   ```
   function greeter(person) {
       return "Hello, " + person;
