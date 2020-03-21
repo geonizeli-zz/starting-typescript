@@ -27,5 +27,6 @@ const A = styled.a`
   text-decoration: none;
   &:hover {
     border: 1px solid #f71963;
+    box-shadow: 0 0 0 2px #f71963, 0 0 20px rgba(247,25,99,.25);
   }
 `

@@ -1,19 +1,19 @@
 import React from 'react';
-import Button from './components/ui/Button';
+import styled from 'styled-components';
+import Networks from './components/sections/Networks';
 
 function App() {
   return (
-    <>
-    <Button url='https://github.com/geonizeli'
-            title='GitHub'></Button>
-
-    <Button url='https://www.linkedin.com/in/geonizeli/'
-            title='Linkedin'></Button>
-
-    <Button url='https://t.me/geonizeli'
-            title='Telegram'></Button>
-    </>
+    <Container>
+      <Networks />
+    </Container>
   );
 }
 
 export default App;
+
+const Container = styled.div`
+  max-width: 800px;
+  margin: auto;
+  text-aling: center;
+`
