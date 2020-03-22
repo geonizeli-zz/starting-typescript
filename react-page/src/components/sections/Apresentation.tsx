@@ -21,7 +21,6 @@ const Div = styled.div`
 `
 const Name = styled.div`
   font-size: 4.7rem;
-  color: #ffffff;
   text-align: center;
   margin: auto;
 `

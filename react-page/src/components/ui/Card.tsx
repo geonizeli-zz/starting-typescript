@@ -1,21 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
 type CardProps = {
   title: string,
   text: string,
-  src: string
+  image: IconProp
 }
 
-export const Card = ({ title, text, src }: CardProps) => {
+export const Card = ({ title, text, image }: CardProps) => {
   return (
     <A>
       <Body>
         <Title>{title}</Title>
         <Text>{text}</Text>
       </Body>
-
-      <Img src={src} />
+      <Img>
+        <Icon icon={image} />
+      </Img>
     </A>
   )
 }
@@ -28,10 +32,10 @@ const A = styled.a`
   text-align: center;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   border: 1px solid transparent;
   transition: all .5s ease;
   font-size: 18px;
-  color: #ffffff;
   height: 230px;
 
   &:hover {
@@ -44,6 +48,7 @@ const A = styled.a`
 `
 
 const Body = styled.div`
+  max-width: 400px;
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -58,7 +63,8 @@ const Text = styled.div`
 
 `
 
-const Img = styled.img`
+const Img = styled.div`
+  font-size: 130px;
   width: 230px;
-  border-radius: 50%;
+  margin: 50px;
 `
