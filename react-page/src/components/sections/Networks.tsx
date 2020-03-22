@@ -8,6 +8,7 @@ import { faGithub, faLinkedin, faTelegramPlane } from '@fortawesome/free-brands-
 export const Networks = () => {
 
   return (
+    <>
     <Nav>
       <Button url='https://github.com/geonizeli'
               title='GitHub'
@@ -21,6 +22,7 @@ export const Networks = () => {
               title='Telegram'
               icon={faTelegramPlane}></Button>
     </Nav>
+    </>
   )
 }
 
