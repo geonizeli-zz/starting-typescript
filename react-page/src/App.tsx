@@ -18,5 +18,4 @@ export default App;
 const Container = styled.div`
   max-width: 800px;
   margin: auto;
-  text-aling: center;
 `
