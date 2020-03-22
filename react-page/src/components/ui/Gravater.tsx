@@ -21,7 +21,7 @@ const Img = styled.img`
   border: solid 1px #000000;
   border-radius: 50%;
   transition: all .5s ease;
-  width: 28rem;
+  width: 23rem;
 
   &:hover {
     transition: all .5s ease;
