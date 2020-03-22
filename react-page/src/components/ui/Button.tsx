@@ -1,16 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
+
 type ButtonProps = {
   title: string,
-  url: string
+  url: string,
+  icon: IconProp
 }
 
-export const Button = ({ title, url }: ButtonProps) => {
+export const Button = ({ title, url, icon }: ButtonProps) => {
 
   return (
     <A href={url} target='_blank'>
-      {title}
+      <Icon icon={icon}/> {title}
     </A>
   )
 }

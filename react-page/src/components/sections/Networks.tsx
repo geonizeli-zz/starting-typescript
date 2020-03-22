@@ -3,18 +3,23 @@ import styled from 'styled-components'
 
 import Button from '../ui/Button';
 
+import { faGithub, faLinkedin, faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
+
 export const Networks = () => {
 
   return (
     <Nav>
       <Button url='https://github.com/geonizeli'
-              title='GitHub'></Button>
+              title='GitHub'
+              icon={faGithub} ></Button>
 
       <Button url='https://www.linkedin.com/in/geonizeli/'
-              title='Linkedin'></Button>
+              title='Linkedin'
+              icon={faLinkedin}></Button>
 
       <Button url='https://t.me/geonizeli'
-              title='Telegram'></Button>
+              title='Telegram'
+              icon={faTelegramPlane}></Button>
     </Nav>
   )
 }
